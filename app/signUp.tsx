@@ -19,7 +19,7 @@ const handleSignup = async (username: string, email: string, password: string, c
     }
     else {
         try {
-            const response = await fetch("http://10.170.188.124:8080/signup", {
+            const response = await fetch("Your_Signup_Endpoint", {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
