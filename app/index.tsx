@@ -11,7 +11,7 @@ export default function Index() {
 
   const handleLogin = async (username: string, password: string) => {
     try {
-      const response = await fetch("http://10.170.188.124:8080/login", {
+      const response = await fetch("Your_Login_EndPoint", {
         method: 'POST',
         headers: {
           Accept: 'application/json',
